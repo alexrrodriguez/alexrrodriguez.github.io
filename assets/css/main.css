@@ -84,6 +84,13 @@ input, select, textarea {
 	font-weight: bold;
 }
 
+.personal {
+	border-radius: 50%;
+	max-width: 300px;
+	max-height: 300px;
+	
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -710,6 +717,7 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			
 		}
 
 			.image.main img {

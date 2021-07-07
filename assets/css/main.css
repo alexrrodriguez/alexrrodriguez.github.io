@@ -86,8 +86,6 @@ input, select, textarea {
 
 .personal {
 	border-radius: 50%;
-	max-width: 300px;
-	max-height: 300px;
 	
 }
 
@@ -722,6 +720,12 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
+			}
+
+			.image.main.intro {
+				display: flex;
+ 				align-items:center;
+ 				justify-content:center;
 			}
 
 		@media screen and (max-width: 736px) {
